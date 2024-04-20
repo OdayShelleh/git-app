@@ -29,6 +29,14 @@ function App() {
       <AddUser onAddUser={addUserHandler} />
       <UserList users={usersList} onDeleteUser={deleteUserHandler} />
       <h2>Updated some files</h2>
+      <ul>
+        <li>item 1 </li>
+        <li>item 2</li>
+        <li>item 3</li>
+        <li>item 4</li>
+        <li>item 5</li>
+        <li>item 6</li>
+      </ul>
     </div>
   );
 }
